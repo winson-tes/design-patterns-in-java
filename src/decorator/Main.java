@@ -9,7 +9,6 @@ public class Main {
         course.display();
         System.out.println("----------------");
         videoCourse.display();
-        videoCourse.playVideo();
     }
 }
 
