@@ -1,8 +1,10 @@
 package bridge;
 
 public class Facebook implements Website {
+    String name = "Facebook";
+
     @Override
-    public void showContent() {
-        System.out.println("Facebook");
+    public String getName() {
+        return name;
     }
 }

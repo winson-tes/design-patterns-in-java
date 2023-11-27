@@ -1,8 +1,10 @@
 package bridge;
 
 public class Instagram implements Website {
+    String name = "Instagram";
+
     @Override
-    public void showContent() {
-        System.out.println("Instagram");
+    public String getName() {
+        return name;
     }
 }

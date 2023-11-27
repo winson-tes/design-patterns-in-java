@@ -7,7 +7,6 @@ public class RegisteredUser extends SubscriberLevel {
 
     @Override
     void showContent () {
-        System.out.println("User is a registered user");
-        website.showContent();
+        System.out.println("Website: " + website.getName() + ", Subscriber Level: Registered user");
     }
 }

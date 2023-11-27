@@ -7,7 +7,6 @@ public class GuestUser extends SubscriberLevel {
 
     @Override
     void showContent () {
-        System.out.println("User is a free user");
-        website.showContent();
+        System.out.println("Website: " + website.getName() + ", Subscriber Level: Free user");
     }
 }

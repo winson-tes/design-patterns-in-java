@@ -1,5 +1,5 @@
 package bridge;
 
 public interface Website {
-    public void showContent();
+    public String getName();
 }
