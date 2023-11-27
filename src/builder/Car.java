@@ -23,19 +23,19 @@ public class Car {
 		this.Wheels=builder.Wheels;
 		this.isCarPlayEnabled=builder.isCarPlayEnabled;
 	}
-	
+
 	public static class CarBuilder{
 		private String Colour;
 		private int Wheels;
 
-        private boolean isCarPlayEnabled;
+		private boolean isCarPlayEnabled;
 
-        public CarBuilder(String colour, int wheels){
+		public CarBuilder(String colour, int wheels){
 			this.Colour=colour;
 			this.Wheels=wheels;
 		}
 
-        public CarBuilder setCarPlayEnabled(boolean isCarPlayEnabled) {
+		public CarBuilder setCarPlayEnabled(boolean isCarPlayEnabled) {
 			this.isCarPlayEnabled = isCarPlayEnabled;
 			return this;
 		}
