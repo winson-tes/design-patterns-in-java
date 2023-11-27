@@ -15,7 +15,7 @@ public class Teacher {
         this.name = name;
     }
 
-    public String getInfo() {
+    public String getName() {
         return name;
     }
  

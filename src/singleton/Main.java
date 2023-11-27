@@ -9,5 +9,6 @@ class Main {
         Teacher someOtherTeacher = Teacher.getInstance();
         someOtherTeacher.setName("Jane");
         someOtherTeacher.doSomething();
+        System.err.println(teacher.getName()); // this will return jane
     }
 }
