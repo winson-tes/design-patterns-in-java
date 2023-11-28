@@ -5,7 +5,7 @@ class Main {
         ServerProxy server = new ServerProxy();
         server.showStats();
 
-        // lets call it again
+        // let's call it again
         server.showStats();
     }
 }
