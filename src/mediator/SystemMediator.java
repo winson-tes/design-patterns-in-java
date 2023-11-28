@@ -1,5 +1,5 @@
 package mediator;
 
 public interface SystemMediator {
-    void relay(String message);
+    void relay(Student sender, String message);
 }

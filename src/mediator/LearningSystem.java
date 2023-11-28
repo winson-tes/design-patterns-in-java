@@ -9,10 +9,11 @@ public class LearningSystem implements SystemMediator {
         this.classList.add(student);
     }
 
-    public void relay(String message) {
-        for (int i = 0; i < classList.size(); i++)  {
-            Student student = classList.get(i);
-            student.recieveMessage(message);
+    public void relay(Student sender, String message) {
+        for (var student : classList)  {
+            if (!student.equals(sender)) {
+                student.receiveMessage(message);
+            }
         }
     }
 }
